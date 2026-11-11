@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Toll Bridge demo writers</title><style>body{font:17px/1.6 Georgia,serif;max-width:680px;margin:0 auto;padding:16px;color:#1d1d1d;background:#fbf8f1}.demo{font:600 13px/1.4 system-ui,sans-serif;background:#ffe24a;border:2px solid #1d1d1d;padding:8px 10px;margin:0 0 20px}h1{line-height:1.2}.lic{font:13px/1.5 ui-monospace,monospace;background:#fff;border:1px dashed #888;padding:10px;margin-top:28px;white-space:pre-wrap;word-break:break-word}a{color:#0a4fd1}</style></head><body><div class="demo">DEMO WRITER &middot; PayPal sandbox only &middot; fictional writer, fake data &middot; part of the <a href="https://github.com/JoeProAI/toll-bridge">Toll Bridge</a> hackathon demo</div>
+<h1>Toll Bridge demo writers</h1>
+<p>Four fictional writers with real <a href="https://rslstandard.org/rsl">RSL 1.0</a> license files. Toll Bridge reads these before an AI agent may use a page, and pays the writer per verified quote through PayPal Payouts (sandbox).</p>
+<ul>
+<li><a href="a.html">A: How small libraries stretch a book budget</a> &mdash; pays per use, $0.05 (<a href="licenses/writer-a.xml">license</a>)</li>
+<li><a href="b.html">B: Why the night bus came back</a> &mdash; pays per use, $0.05 (<a href="licenses/writer-b.xml">license</a>)</li>
+<li><a href="c.html">C: Notes on keeping sourdough starter alive</a> &mdash; prohibits all AI use (<a href="licenses/writer-c.xml">license</a>)</li>
+<li><a href="d.html">D: Review: the CloudNest smart thermostat</a> &mdash; pays per use, but hides a prompt injection (<a href="licenses/writer-d.xml">license</a>)</li>
+</ul>
+<h2>The payee block</h2>
+<p>RSL lets a license name payment methods with <code>&lt;accepts type="..."&gt;</code>, and says other payment systems may define their own media types. <code>application/vnd.tollbridge.paypal-payout+json</code> is Toll Bridge&#39;s own proposal. It is not part of RSL or PayPal.</p>
+<p>All names, numbers, places and products on these pages are made up. Payee emails are PayPal <strong>sandbox</strong> accounts. No real money moves.</p>
+</body></html>
